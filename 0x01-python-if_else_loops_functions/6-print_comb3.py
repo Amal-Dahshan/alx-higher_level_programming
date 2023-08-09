@@ -16,5 +16,5 @@ for i in range(0, 10):
             # last number is 89
             print("{}{}".format(i, n))
         else:
-# rest of numbers
+            # rest of numbers
             print("{}{}".format(i, n), end=", ")
