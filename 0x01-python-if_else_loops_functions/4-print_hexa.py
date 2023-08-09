@@ -4,4 +4,4 @@
 # You can only use one loop in your code
 # You are not allowed to store numbers or strings in a variable
 for i in range(0, 99):
-    print(f"{i} = {hex(i)}")
+    print("{} = {}".format(i, hex(i)))
