@@ -8,10 +8,10 @@ def safe_print_division(a, b):
     You have to use try: / except: / finally:
     You have to use "{}".format() to print the result
     You are not allowed to import any module'''
-     try:
+    try:
         div = a / b
     except (TypeError, ZeroDivisionError):
         div = None
     finally:
         print("Inside result: {}".format(div))
-    return (div)   
+    return (div) 
