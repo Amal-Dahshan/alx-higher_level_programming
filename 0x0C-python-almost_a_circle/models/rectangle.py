@@ -6,8 +6,8 @@ from models.base import Base
 class Rectangle(Base):
     """Represent a rectangle."""
 
-def __init__(self, width, height, x=0, y=0, id=None):
-    """Initialize a new Rectangle.
+    def __init__(self, width, height, x=0, y=0, id=None):
+        """Initialize a new Rectangle.
 
         Args:
             width (int): The width of the new Rectangle.
@@ -21,11 +21,11 @@ def __init__(self, width, height, x=0, y=0, id=None):
             TypeError: If either of x or y is not an int.
             ValueError: If either of x or y < 0.
         """
-    self.width = width
-    self.height = height
-    self.x = x
-    self.y = y
-    super().__init__(id)
+        self.width = width
+        self.height = height
+        self.x = x
+        self.y = y
+        super().__init__(id)
 
     @property
     def width(self):
