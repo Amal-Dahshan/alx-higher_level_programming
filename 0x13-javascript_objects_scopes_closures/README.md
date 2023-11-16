@@ -1,7 +1,7 @@
 # JavaScript - Objects, Scopes and Closures
 **( JavaScript - OOP )**
 
-###Description:
+### Description:
 Learning about:
 
 - How to create an object in JavaScript
