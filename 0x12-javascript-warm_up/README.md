@@ -1,5 +1,5 @@
-# JavaScript - Objects, Scopes and Closures
-**( JavaScript - OOP )**
+# JavaScript - Warm up
+**( JavaScript )**
 
 ### Description:
 Learning about:
